@@ -1,0 +1,24 @@
+Project name is: Ami Coding Parina.
+For this project I have used Django framework and django rest framework for backend.
+ 1. backend app used for model where I can create a api using django rest framework. also can update, delete any api.
+ 2. Khoj app used for front view where we can see front-end functionality.
+ 3. users app is user authentication app. Here user can login,logout, sign up, password rest using his/her account via email address.
+    
+and for front-end I've used django jinja format.
+for styling part I've used bootstrap4. 
+
+
+how to run this project?
+
+ 1. Download this project from github.
+ 2. create virtualenvironment with command - python -m venv virenv_name.
+ 3. install all dependencys from requirements.txt file with command - pip install -r requirements.txt
+ 4. activate virenv with command- virenv_name\Scripts\activate for windos and source virenv/bin/activate for mac.
+ 5. Run project with command - python manage.py runserver. you will have http://localhost:8000 port. copy the link and past it into browser.
+ 6. http://localhost:8000/api this link will show backend rest API.
+ 7. http://localhost:8000/api/list for API list.
+ 8. http://localhost:8000/api/create for create API.
+ 9. http://localhost:8000/api/update/<item id>/ for update API
+ 10. http://localhost:8000/api/delete/<item id>/ for delete API
+ 11. http://localhost:8000/admin this link for admin panel.
+ 12. admin panel id and pass - admin and 12345
